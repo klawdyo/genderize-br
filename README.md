@@ -41,7 +41,7 @@ yarn add https://github.com/klawdyo/genderize-br#v.0.1
 ```
 
 
-### Initialization
+### How To
 
 ```js
   genderize('pato') //pata
