@@ -1,0 +1,29 @@
+{
+  "name": "genderize-br",
+  "description": "Realiza flexão de gênero (converte de masculino para feminino) em palavras do Português do Brasil",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klawdyo/genderize-br.git"
+  },
+  "author": "Cláudio Medeiros (klawdyo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klawdyo/colors/issues"
+  },
+  "homepage": "https://github.com/klawdyo/colors#readme",
+  "scripts": {
+    "test": "yarn build && cls && node tests/index.test | tap-spec",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.5.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.0"
+  }
+}
